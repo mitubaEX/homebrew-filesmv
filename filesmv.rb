@@ -1,10 +1,10 @@
 require 'formula'
 
-HOMEBREW_FILEMV_VERSION='1.0'
+HOMEBREW_FILESMV_VERSION='1.0'
 class Pt < Formula
   homepage 'https://github.com/mitubaEX/filesmv'
-  url 'https://github.com/mitubaEX/filesmv.git', :tag => "v#{HOMEBREW_PT_VERSION}"
-  version HOMEBREW_PT_VERSION
+  url 'https://github.com/mitubaEX/filesmv.git', :tag => "v#{HOMEBREW_FILESMV_VERSION}"
+  version HOMEBREW_FILESMV_VERSION
   head 'https://github.com/mitubaEX/filesmv.git', :branch => 'master'
 
   depends_on 'go' => :build
