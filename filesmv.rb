@@ -1,7 +1,7 @@
 require 'formula'
 
 HOMEBREW_FILESMV_VERSION='1.0'
-class Pt < Formula
+class Filesmv < Formula
   homepage 'https://github.com/mitubaEX/filesmv'
   url 'https://github.com/mitubaEX/filesmv.git', :tag => "v#{HOMEBREW_FILESMV_VERSION}"
   version HOMEBREW_FILESMV_VERSION
